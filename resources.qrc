@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Icons/system-search.png</file>
+        <file>Icons/system-search2.png</file>
+        <file>Icons/okjicon.svg</file>
+        <file>Icons/okjicon.ico</file>
+        <file>Icons/okjicon64x64.png</file>
+        <file>Icons/okjicon32x32.png</file>
+        <file>Icons/okjicon144x144.png</file>
+    </qresource>
+</RCC>
