@@ -13,6 +13,9 @@ mkdir "%project_dir%\output"
 mkdir "%project_dir%\cscrt
 7z e "%project_dir%\appveyor\cscrt.7z" -p"%cscrt_pass%" -o"%project_dir%\cscrt"
 
+echo Extacting ssl dll's to output
+7z e "%project_dir%\ssl.zip" -o"%project_dir%\output"
+
 echo Building OpenKJ-SongShop...
 qmake CONFIG-=debug CONFIG+=release
 nmake
