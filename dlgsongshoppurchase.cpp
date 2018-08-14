@@ -146,7 +146,7 @@ void DlgSongShopPurchase::purchaseSuccess()
     msgBoxInfo->hide();
     QMessageBox msgBox;
     msgBox.setWindowTitle("Purchase succeeded!");
-    msgBox.setText("Your purchased track has been downloaded and added to your database.");
+    msgBox.setText("Your purchased track has been downloaded successfully.");
     msgBox.exec();
     close();
 }
