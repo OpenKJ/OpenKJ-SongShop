@@ -33,6 +33,7 @@ private:
     DlgSongShopPurchase *dlgPurchase;
     SongShop *shop;
     Settings *settings;
+   // QMessageBox *msgLoading;
 
     // QWidget interface
 public slots:
