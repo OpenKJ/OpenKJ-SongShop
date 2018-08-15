@@ -1,0 +1,9 @@
+{
+  "title": "OpenKJ SongShop",
+  "icon": "/Users/travis/build/OpenKJ/OpenKJ-SongShop/Icons/OpenKJ-SongShop.icns",
+  "background": "/Users/lightburnisaac/dmgbkg.png",
+  "contents": [
+    { "x": 378, "y": 225, "type": "link", "path": "/Applications" },
+    { "x": 138, "y": 225, "type": "file", "path": "/Users/travis/build/OpenKJ/OpenKJ-SongShop/OpenKJ-SongShop.app" }
+  ]
+}
