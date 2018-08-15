@@ -68,9 +68,9 @@ void DlgSongShop::setVisible(bool visible)
 void DlgSongShop::autoSizeView()
 {
 //    int fH = QFontMetrics(settings->applicationFont()).height();
-    int priceColSize = QFontMetrics(settings->applicationFont()).width(" $0.00 ");
-    int songidColSize = QFontMetrics(settings->applicationFont()).width(" PY000000 ");
-    int vendorColSize = QFontMetrics(settings->applicationFont()).width(" Party Tyme Karaoke ");
+    int priceColSize = QFontMetrics(settings->applicationFont()).width("__$0.00__");
+    int songidColSize = QFontMetrics(settings->applicationFont()).width("__PY000000__");
+    int vendorColSize = QFontMetrics(settings->applicationFont()).width("__Party Tyme Karaoke__");
     int mediaColSize = QFontMetrics(settings->applicationFont()).width("__mp3+g__");
     int remainingSpace = ui->tableViewSongs->width() - priceColSize - songidColSize - vendorColSize - mediaColSize - 20;
     int artistColSize = (remainingSpace / 2) - 100;
