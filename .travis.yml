@@ -2,7 +2,7 @@ language: c++
 os:
 - osx
 env:
-  - SSVER=1.0.8
+  - SSVER=1.0.10
 before_install:
 - source travis/before_install.sh
 install:
