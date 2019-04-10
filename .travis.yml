@@ -2,7 +2,7 @@ language: c++
 os:
 - osx
 env:
-  - SSVER=1.0.11
+  - SSVER=1.0.12
 before_install:
 - source travis/before_install.sh
 install:
@@ -12,7 +12,7 @@ script:
 deploy:
   provider: gcs
   access_key_id: GOOGCQNIBMNORKT3EC2Y
-  bucket: "${BRANCH_BUCKET}"
+  bucket: "openkj-songshop/macos"
   skip_cleanup: true
   local-dir: deploy
   secret_access_key:
